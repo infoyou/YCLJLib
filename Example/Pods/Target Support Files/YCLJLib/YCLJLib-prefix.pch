@@ -8,5 +8,15 @@
 #    define DLog(...)
 #endif
 
+// 动态获取设备参数SCREEN_WIDTH
+#define SCREEN_WIDTH      [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT     [UIScreen mainScreen].bounds.size.height
+#define SCREEN_HEIGHT_OFFSET    64
+#define SCREEN_SCALE      [UIScreen mainScreen].scale
+
+// 颜色
+#define HEX_COLOR(__STR)    [UIColor colorWithHexString:__STR]
+#define TRANSPARENT_COLOR   [UIColor clearColor]
+
 #endif
 

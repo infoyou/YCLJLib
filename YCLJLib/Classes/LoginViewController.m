@@ -1,6 +1,6 @@
 //
 //  LoginViewController.m
-//  ArtSky
+//  Pod
 //
 //  Created by Adam on 15/7/30.
 //  Copyright (c) 2015年 fule. All rights reserved.
@@ -68,6 +68,7 @@
                               DLog(@"userId %@", userId);
                               DLog(@"mobile %@", mobile);
                               DLog(@"userName %@", userName);
+                              
                         } else {
                             
                               [self showHUDWithText:[backDic valueForKey:@"msg"]];

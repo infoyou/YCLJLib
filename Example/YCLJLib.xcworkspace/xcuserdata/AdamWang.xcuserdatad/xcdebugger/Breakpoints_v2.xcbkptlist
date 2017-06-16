@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../YCLJLib/Classes/LoginViewController.m"
-            timestampString = "519286009.411054"
+            filePath = "../YCLJLib/Classes/SolutionListViewController.m"
+            timestampString = "519291864.033492"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "-transLoginData:passWord:"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../YCLJLib/Classes/LoginViewController.m"
-            timestampString = "519286009.411054"
+            filePath = "../YCLJLib/Classes/SolutionListViewController.m"
+            timestampString = "519291864.033492"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "-transLoginData:passWord:"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,125 +41,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../YCLJLib/Classes/LoginViewController.m"
-            timestampString = "519211219.519046"
+            filePath = "../YCLJLib/Classes/BaseTableViewController.m"
+            timestampString = "519291173.311323"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "-transLoginData:passWord:"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../YCLJLib/Classes/UIViewController+ToastMessage.m"
-            timestampString = "519213155.702587"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "198"
-            endingLineNumber = "198"
-            landmarkName = "-showHUDWithText:inView:hudType:methodBlock:completion:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[UIViewController(ToastMessage) showHUDWithText:inView:hudType:methodBlock:completion:]"
-                  moduleName = "YCLJLib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AdamWang/Documents/Product/YCLJLib/YCLJLib/Classes/UIViewController+ToastMessage.m"
-                  timestampString = "519285859.574467"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "198"
-                  endingLineNumber = "198"
-                  offsetFromSymbolStart = "154">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__Block_byref_object_copy_"
-                  moduleName = "YCLJLib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AdamWang/Documents/Product/YCLJLib/YCLJLib/Classes/UIViewController+ToastMessage.m"
-                  timestampString = "519285859.576851"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "198"
-                  endingLineNumber = "198"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__Block_byref_object_dispose_"
-                  moduleName = "YCLJLib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AdamWang/Documents/Product/YCLJLib/YCLJLib/Classes/UIViewController+ToastMessage.m"
-                  timestampString = "519285859.579242"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "198"
-                  endingLineNumber = "198"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../YCLJLib/Classes/UIViewController+ToastMessage.m"
-            timestampString = "519214010.431865"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "243"
-            endingLineNumber = "243"
-            landmarkName = "-showHUDWithText:inView:hudType:methodBlock:completion:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[UIViewController(ToastMessage) showHUDWithText:inView:hudType:methodBlock:completion:]"
-                  moduleName = "YCLJLib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AdamWang/Documents/Product/YCLJLib/YCLJLib/Classes/UIViewController+ToastMessage.m"
-                  timestampString = "519285859.584815"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "243"
-                  endingLineNumber = "243"
-                  offsetFromSymbolStart = "1025">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__88-[UIViewController(ToastMessage) showHUDWithText:inView:hudType:methodBlock:completion:]_block_invoke"
-                  moduleName = "YCLJLib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AdamWang/Documents/Product/YCLJLib/YCLJLib/Classes/UIViewController+ToastMessage.m"
-                  timestampString = "519285859.5873"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "243"
-                  endingLineNumber = "243"
-                  offsetFromSymbolStart = "37">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

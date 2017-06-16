@@ -20,8 +20,11 @@
     
     [self.window makeKeyAndVisible];
     
-    LoginViewController *loginVC = [LoginViewController new];
-    self.window.rootViewController = loginVC;
+//    LoginViewController *loginVC = [LoginViewController new];
+//    self.window.rootViewController = loginVC;
+    
+    SolutionListViewController *solutionListVC = [[SolutionListViewController alloc] init];
+    self.window.rootViewController = solutionListVC;
     
     return YES;
 }

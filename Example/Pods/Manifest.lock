@@ -22,6 +22,7 @@ PODS:
     - AFNetworking/NSURLSession
   - ATMHud (0.0.1)
   - Kiwi (2.4.0)
+  - MJRefresh (3.1.12)
   - MRProgress (0.8.3):
     - MRProgress/ActivityIndicator (= 0.8.3)
     - MRProgress/Blur (= 0.8.3)
@@ -53,6 +54,7 @@ PODS:
   - YCLJLib (0.1.0):
     - AFNetworking (~> 2.3)
     - ATMHud (~> 0.0.1)
+    - MJRefresh (~> 3.1.12)
     - MRProgress (~> 0.8)
 
 DEPENDENCIES:
@@ -67,8 +69,9 @@ SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   ATMHud: 47b3f5c9034918b83ce0b42e9fe744d4c49d7d00
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
-  YCLJLib: d0df65e6ee123d157c17f6bd43de4f8f47053aae
+  YCLJLib: 152669633d654eaa1f93310485f07537e0f07aad
 
 PODFILE CHECKSUM: 30d440809dc5b9965ad93e73090f30d9f64a6722
 

@@ -43,5 +43,6 @@ TODO: Add long description of the pod here.
     s.dependency 'ATMHud', '~> 0.0.1'
     s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'MRProgress', '~> 0.8'
+    s.dependency 'MJRefresh', '~> 3.1.12'
 #s.dependency 'Bugly', '~> 2.4.8'
 end

@@ -14,4 +14,8 @@
 // system info
 #define CURRENT_OS_VERSION  [[[UIDevice currentDevice] systemVersion] floatValue]
 
+#define NAVI_BAR_BG_COLOR            @"0x5ed8cd"
+#define VIEW_BG_COLOR                @"0xeeeded"
+#define CELL_BG_COLOR                @"0xffffff"
+
 #endif /* YCLJ_Header_h */

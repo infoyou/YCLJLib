@@ -1,0 +1,6 @@
+framework module YCLJLib {
+  umbrella header "YCLJLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCLJLib_Example' do
+  pod 'YCLJLib', :path => '../'
+
+  target 'YCLJLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

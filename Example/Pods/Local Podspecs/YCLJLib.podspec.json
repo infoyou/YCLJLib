@@ -1,0 +1,43 @@
+{
+  "name": "YCLJLib",
+  "version": "0.1.0",
+  "summary": "A short description of YCLJLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/infoyou/YCLJLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Adam": "infoyou@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/infoyou/YCLJLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YCLJLib/Classes/**/*",
+  "resource_bundles": {
+    "YCLJLib": [
+      "YCLJLib/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "ATMHud": [
+      "~> 0.0.1"
+    ],
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "MRProgress": [
+      "~> 0.8"
+    ]
+  }
+}

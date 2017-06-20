@@ -545,7 +545,7 @@
 		3E8B3EE525B9999B6C8249BD43913F88 /* NSObject+KiwiSpyAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiSpyAdditions.m"; path = "Classes/Core/NSObject+KiwiSpyAdditions.m"; sourceTree = "<group>"; };
 		3F49BEE22AE3A2BF995D0A41600C8AB5 /* KWPendingNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWPendingNode.h; path = Classes/Nodes/KWPendingNode.h; sourceTree = "<group>"; };
 		3F8BB1F72727EC1194874AE1397F2EFB /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		404EEB48DFC54498EE3874B6E9B6AD18 /* YCLJLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YCLJLib-prefix.pch"; path = "../../Example/Pods/Target Support Files/YCLJLib/YCLJLib-prefix.pch"; sourceTree = "<group>"; };
+		404EEB48DFC54498EE3874B6E9B6AD18 /* YCLJLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCLJLib-prefix.pch"; sourceTree = "<group>"; };
 		405BFADBB449E2D01A8AA3A11000AFC4 /* KWBeEmptyMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeEmptyMatcher.h; path = Classes/Matchers/KWBeEmptyMatcher.h; sourceTree = "<group>"; };
 		40AD27CDC7C109873F376AC3689F1E81 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		41B759147D2F25E42ECB01539A8EF497 /* NSMethodSignature+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+KiwiAdditions.h"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.h"; sourceTree = "<group>"; };
@@ -948,6 +948,7 @@
 				A7CCD913392CA71F270AB3D8D4B81498 /* YCLJLib.modulemap */,
 				BF98B07707981ED694F044E011756074 /* YCLJLib.xcconfig */,
 				33A7FB2786CBE06C7BA9751643C9DCD1 /* YCLJLib-dummy.m */,
+				404EEB48DFC54498EE3874B6E9B6AD18 /* YCLJLib-prefix.pch */,
 				904E1A765DEB156060267E017682058A /* YCLJLib-umbrella.h */,
 			);
 			name = "Support Files";
@@ -991,7 +992,6 @@
 		1D4610AFFD687105AB714A46460B0C03 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				404EEB48DFC54498EE3874B6E9B6AD18 /* YCLJLib-prefix.pch */,
 				5BACD9115BCB8AA1B4AB15B6C6718776 /* YCLJ_Header.h */,
 				C75175834A154CD2A2281773CFCEFAA2 /* BaseTableViewController.h */,
 				CE72A704031D7EFD2C6EC8E7246D278E /* BaseTableViewController.m */,

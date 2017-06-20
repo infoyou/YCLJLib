@@ -17,29 +17,28 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-    s.description      = <<-DESC
+  s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-    s.homepage         = 'https://github.com/infoyou/YCLJLib'
+  s.homepage         = 'https://github.com/infoyou/YCLJLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-    s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Adam' => 'infoyou@foxmail.com' }
-    s.source           = { :git => 'https://github.com/infoyou/YCLJLib.git', :tag => s.version.to_s }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Adam' => 'infoyou@foxmail.com' }
+  s.source           = { :git => 'https://github.com/infoyou/YCLJLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-    s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.0'
 
-#    s.prefix_header_contents = '#import "YCLJ_Header.h"'
-    s.source_files = 'YCLJLib/Classes/**/*'
+  s.source_files = 'YCLJLib/Classes/**/*'
   
-    s.resource_bundles = {
+  s.resource_bundles = {
      'YCLJLib' => ['YCLJLib/Assets/*.png']
    }
 
     s.public_header_files = 'YCLJLib/Classes/**/*.h'
 #s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'MapKit'
 
     #dependency
     s.dependency 'ATMHud', '~> 0.0.1'
@@ -47,5 +46,4 @@ TODO: Add long description of the pod here.
     s.dependency 'MRProgress', '~> 0.8'
     s.dependency 'MJRefresh', '~> 3.1.12'
 #s.dependency 'Bugly', '~> 2.4.8'
-
 end

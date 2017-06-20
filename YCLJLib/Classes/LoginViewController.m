@@ -65,9 +65,9 @@
                               NSString *mobile = resultDict[@"mobile"];
                               NSString *userName = resultDict[@"username"];
                               
-                                  NSLog(@"userId %@", userId);
-                                  NSLog(@"mobile %@", mobile);
-                                  NSLog(@"userName %@", userName);
+                              NSLog(@"userId %@", userId);
+                              NSLog(@"mobile %@", mobile);
+                              NSLog(@"userName %@", userName);
                               
                         } else {
                             

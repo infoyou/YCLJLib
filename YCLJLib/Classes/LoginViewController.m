@@ -82,7 +82,6 @@
                   } failure:^(NSError *error) {
                       
                       NSLog(@"请求失败-%@", error);
-                      
                       if (completionBlock) {
                           [hud hide];
                       }

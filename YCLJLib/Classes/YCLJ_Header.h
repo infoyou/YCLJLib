@@ -9,13 +9,6 @@
 #ifndef YCLJ_Header_h
 #define YCLJ_Header_h
 
-// debug
-#ifdef DEBUG
-#    define DLog(...)     NSLog(__VA_ARGS__)
-#else
-#    define DLog(...)
-#endif
-
 #define YCLJ_HOST_URL           @"http://leju.yun.com/leju/signin/"
 
 // system info

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YCLJLib'
-  s.version          = '0.1.0'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of YCLJLib.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,8 @@ TODO: Add long description of the pod here.
      'YCLJLib' => ['YCLJLib/Assets/*.png']
    }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+    s.public_header_files = 'YCLJLib/Classes/**/*.h'
+#s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
 
     #dependency

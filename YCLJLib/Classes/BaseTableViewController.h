@@ -28,32 +28,32 @@
 
 - (void)hiddenFooter;
 
-#pragma mark - scroll table
-- (void)scrollingToTopPosition;
+//#pragma mark - scroll table
+//- (void)scrollingToTopPosition;
+//
+//#pragma mark - Banner Data
+//- (void)transBannerDataInfo;
+//- (void)transBannerDataInfoByType:(NSNumber *)bannerType;
+//- (void)createPosterScrollViewInView:(UIView *)headView;
+//
+//- (void)transTableDataInfo;
+//- (void)handleTransTableDataInfo:(NSMutableDictionary *)dataDict;
 
-#pragma mark - Banner Data
-- (void)transBannerDataInfo;
-- (void)transBannerDataInfoByType:(NSNumber *)bannerType;
-- (void)createPosterScrollViewInView:(UIView *)headView;
-
-- (void)transTableDataInfo;
-- (void)handleTransTableDataInfo:(NSMutableDictionary *)dataDict;
-
-#pragma mark - load data
-- (void)clearTableData;
-- (void)setTablePage;
-
-- (void)loadCellDataDone;
-
-- (void)loadNewData;
-- (void)loadNewDataDone;
-
-- (void)loadMoreData;
-- (void)loadMoreDataDone;
-
-#pragma mark - is Need Show Empty View
-- (void)isNeedShowEmptyView;
-
-- (void)endRefreshingView;
+//#pragma mark - load data
+//- (void)clearTableData;
+//- (void)setTablePage;
+//
+//- (void)loadCellDataDone;
+//
+//- (void)loadNewData;
+//- (void)loadNewDataDone;
+//
+//- (void)loadMoreData;
+//- (void)loadMoreDataDone;
+//
+//#pragma mark - is Need Show Empty View
+//- (void)isNeedShowEmptyView;
+//
+//- (void)endRefreshingView;
 
 @end

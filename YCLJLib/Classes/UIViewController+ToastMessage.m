@@ -141,10 +141,12 @@ static const void *MRProgressOverlayViewKey = &MRProgressOverlayViewKey;
         
 		dispatch_async(dispatch_get_main_queue(), ^{
             
-			[hud hideWithCompletion:^{
-                if(completion)
-                    completion(reuslt);
-            }];
+            [hud hide];
+            
+//			[hud hideWithCompletion:^{
+//                if(completion)
+//                    completion(reuslt);
+//            }];
 			
 		});
 	});
@@ -242,12 +244,13 @@ static const void *MRProgressOverlayViewKey = &MRProgressOverlayViewKey;
     
     ATMHudCompletionBlock comBlock = ^(){
 
-        [hud hideAfter:.2f completion:^{
-            if(completion) {
-                completion();
-            }
-            NSLog(@"#########################################hud %@ is already hidden!", hud);
-        }];
+        [hud hideAfter:.2f];
+//        [hud hideAfter:.2f completion:^{
+//            if(completion) {
+//                completion();
+//            }
+//            NSLog(@"#########################################hud %@ is already hidden!", hud);
+//        }];
     };
     
     if (methodBlock) {
@@ -299,11 +302,13 @@ static const void *MRProgressOverlayViewKey = &MRProgressOverlayViewKey;
     
     [self performBlock:^{
         
-        [hud hideWithCompletion:^{
-            if (completion) {
-                completion();
-            }
-        }];
+        [hud hide];
+        
+//        [hud hideWithCompletion:^{
+//            if (completion) {
+//                completion();
+//            }
+//        }];
         
     } afterDelay:duration];
     
@@ -312,7 +317,9 @@ static const void *MRProgressOverlayViewKey = &MRProgressOverlayViewKey;
 
 #pragma mark - hud delegate
 - (void)userDidTapHud:(ATMHud *)_hud {
-    [_hud hideWithCompletion:nil];
+//    [_hud hideWithCompletion:nil];
+    
+    [_hud hide];
 }
 
 - (void)hudWillAppear:(ATMHud *)_hud {

@@ -295,12 +295,12 @@
 	[sound play];
 }
 
-- (void)hideWithCompletion:(void (^)())completion {
-    [__view hide];
-}
+//- (void)hideWithCompletion:(void (^)())completion {
+//    [__view hide];
+//}
 
-- (void)hideAfter:(NSTimeInterval)delay completion:(void (^)())completion {
-    [self performSelector:@selector(hideWithCompletion:) withObject:completion afterDelay:delay];
-}
+//- (void)hideAfter:(NSTimeInterval)delay completion:(void (^)())completion {
+//    [self performSelector:@selector(hideWithCompletion:) withObject:completion afterDelay:delay];
+//}
 
 @end

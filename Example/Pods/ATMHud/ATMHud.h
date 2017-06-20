@@ -102,8 +102,8 @@ typedef enum {
 - (void)hide;
 - (void)hideAfter:(NSTimeInterval)delay;
 
-- (void)hideWithCompletion:(void(^)())completion;
-- (void)hideAfter:(NSTimeInterval)delay completion:(void(^)())completion;
+//- (void)hideWithCompletion:(void(^)())completion;
+//- (void)hideAfter:(NSTimeInterval)delay completion:(void(^)())completion;
 
 - (void)playSound:(NSString *)soundPath;
 

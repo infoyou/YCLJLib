@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '628D6E92B551C4DC695A4F543C729201'
+               BlueprintIdentifier = 'B3B7B080138A225BB75D3A296D5E7821'
                BlueprintName = 'YCLJLib-YCLJLib'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'YCLJLib.bundle'>

@@ -15,6 +15,4 @@
 + (NSMutableDictionary *) getParamDict:(NSString *)routeName
                               dataDict:(NSMutableDictionary *)dataDict;
 
-+ (void)DLog:(NSString *)msg;
-
 @end

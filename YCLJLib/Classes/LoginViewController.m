@@ -65,9 +65,9 @@
                               NSString *mobile = resultDict[@"mobile"];
                               NSString *userName = resultDict[@"username"];
                               
-                              DLog(@"userId %@", userId);
-                              DLog(@"mobile %@", mobile);
-                              DLog(@"userName %@", userName);
+                                  NSLog(@"userId %@", userId);
+                                  NSLog(@"mobile %@", mobile);
+                                  NSLog(@"userName %@", userName);
                               
                         } else {
                             
@@ -81,7 +81,7 @@
 
                   } failure:^(NSError *error) {
                       
-                      DLog(@"请求失败-%@", error);
+                          NSLog(@"请求失败-%@", error);
                       if (completionBlock) {
                           [hud hide];
                       }

@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
     s.ios.deployment_target = '8.0'
 
-#    s.prefix_header_contents = '#import "YCLJ_Header.h"'
+    s.prefix_header_contents = '#import "YCLJ_Header.h"'
     s.source_files = 'YCLJLib/Classes/**/*'
   
     s.resource_bundles = {

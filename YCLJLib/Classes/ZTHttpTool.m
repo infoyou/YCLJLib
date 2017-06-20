@@ -34,10 +34,12 @@
      failure:(void (^)(NSError *error))failure
 {
     
+    NSLog(@"%@", url);
+    
     for (NSString *key in [params allKeys]) {
         NSString *value = [params objectForKey:key];
 //        NSLog(@"Server Url \n %@?cmd=%@", url, value);
-        NSLog(@"%@=%@", url, value);
+        NSLog(@"%@=%@", key, value);
     }
     
     // 1.创建请求管理者
@@ -48,7 +50,7 @@
         if (success) {
             
             success(responseObject);
-            DLog(@"BackMsg \n %@", responseObject);
+            NSLog(@"BackMsg \n %@", responseObject);
         }
     } failure:^(NSURLSessionDataTask *operation, NSError *error) {
         if (failure) {

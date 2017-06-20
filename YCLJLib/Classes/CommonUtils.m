@@ -62,9 +62,4 @@
     return backVal;
 }
 
-+ (void)DLog:(NSString *format, ...) {
-
-    NSLog(@"%@", format);
-}
-
 @end
